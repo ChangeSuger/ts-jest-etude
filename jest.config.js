@@ -16,4 +16,8 @@ module.exports = {
 
   // 测试环境
   testEnvironment: 'node',
+
+  moduleNameMapper: {
+    '^@/(.*)$': '<rootDir>/src/$1',
+  }
 };
