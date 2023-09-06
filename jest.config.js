@@ -1,5 +1,7 @@
 /** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
+  // setupFilesAfterEnv: ['./test/jest-setup.ts'],
+
   // 自动清除 mock
   clearMocks: true,
 
