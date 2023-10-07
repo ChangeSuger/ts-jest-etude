@@ -52,7 +52,9 @@ module.exports = {
 }
 ```
 
-## Sample Test
+You can also use `npm pkg set scripts.test="jest"` to finish this step.
+
+### First Test
 
 1. create `sum.ts` and `sum.test.ts` file.
 
